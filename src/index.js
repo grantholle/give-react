@@ -6,12 +6,14 @@ import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
 import Reset from './pages/Reset'
 import Donate from './pages/Donate'
+import SignUpSuccess from './pages/SignUpSuccess'
 
 const pages = {
   SignIn,
   SignUp,
   Reset,
-  Donate
+  Donate,
+  SignUpSuccess
 }
 
 for (const key in pages) {
