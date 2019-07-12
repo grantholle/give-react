@@ -3,8 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 import Blocks from "../components/blocks"
 
-const SignIn = () => (
-  <Layout whiteNav={true}>
+export default () => (
+  <Layout>
     <Blocks content={[
       {
         id: `hero`,
@@ -39,5 +39,3 @@ const SignIn = () => (
     ]} />
   </Layout>
 )
-
-export default SignIn
