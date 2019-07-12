@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import Blocks from "../components/blocks"
 
-const SignIn = () => (
+export default () => (
   <Layout>
     <Blocks content={[
       {
@@ -14,7 +14,7 @@ const SignIn = () => (
       {
         id: `content`,
         block: `content`,
-        content: `<p class="text-center">Thank you for your gift... and other content</p>`
+        content: `<p class="text-center"></p>`
       },
       {
         id: `donate-form`,
@@ -23,5 +23,3 @@ const SignIn = () => (
     ]} />
   </Layout>
 )
-
-export default SignIn

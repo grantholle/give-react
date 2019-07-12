@@ -5,11 +5,13 @@ import * as serviceWorker from './serviceWorker'
 import SignIn from './pages/SignIn'
 import SignUp from './pages/SignUp'
 import Reset from './pages/Reset'
+import Donate from './pages/Donate'
 
 const pages = {
   SignIn,
   SignUp,
-  Reset
+  Reset,
+  Donate
 }
 
 for (const key in pages) {
