@@ -1,0 +1,33 @@
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 250ms ease-out;
+}
+
+.fade-leave {
+  opacity: 1;
+}
+
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 250ms ease-out;
+}
+
+.fade-show {
+  position: relative;
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 250ms ease-out;
+  z-index: 10;
+}
+
+.fade-hide {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  transition: opacity 250ms ease-out, visibility 0s 250ms;
+}

@@ -1,0 +1,24 @@
+@import "../../node_modules/tailwindcss/base.css";
+
+@import "../../node_modules/tailwindcss/components.css";
+
+@import "./home.css";
+
+@import "./general.css";
+@import "./typography.css";
+@import "./nav.css";
+@import "./footer.css";
+@import "./buttons.css";
+@import "./hero.css";
+@import "./images-plus-content.css";
+@import "./triangle-content.css";
+@import "./cta.css";
+@import "./image-content-blocks.css";
+@import "./input.css";
+@import "./accordion.css";
+@import "./crackle-header.css";
+@import "./date-picker.css";
+@import "./animations.css";
+
+
+@import "../../node_modules/tailwindcss/utilities.css";
