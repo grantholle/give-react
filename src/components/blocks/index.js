@@ -1,8 +1,6 @@
 import React from "react"
 import Hero from "./hero"
 import Content from "./content"
-import Cta from "./cta"
-import CenteredHeadline from "./centered-headline"
 import Accordion from "./accordion"
 import SignIn from "./signin-form"
 import CreateAccount from "./create-account-form"
@@ -12,8 +10,6 @@ import Reset from "./reset-form"
 const blocks = {
   hero: Hero,
   content: Content,
-  button_action: Cta,
-  centered_headline: CenteredHeadline,
   accordion: Accordion,
   signin: SignIn,
   create_account: CreateAccount,
