@@ -1,9 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import SignIn from './SignIn'
 import * as serviceWorker from './serviceWorker'
 
-ReactDOM.render(<SignIn />, document.getElementById('root'))
+import SignIn from './pages/SignIn'
+import SignUp from './pages/SignUp'
+
+const pages = {
+  SignIn,
+  SignUp
+}
+
+for (const key in pages) {
+  const element = document.getElementById(key)
+
+  if (element) {
+    const Element = pages[key]
+    ReactDOM.render(<Element />, element)
+  }
+}
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
