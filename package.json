@@ -21,8 +21,8 @@
     "build": "npm-run-all build:css build:js",
     "start:js": "react-scripts start",
     "build:js": "react-scripts build",
-    "start:css": "postcss src/styles/app.css -o src/components/layout.css -w",
-    "build:css": "postcss src/styles/app.css -o src/components/layout.css --env production"
+    "start:css": "postcss src/styles/app.css -o src/index.css -w",
+    "build:css": "postcss src/styles/app.css -o src/index.css --env production"
   },
   "eslintConfig": {
     "extends": "react-app"

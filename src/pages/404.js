@@ -1,18 +1,15 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
 import Hero from "../components/blocks/hero"
 
 const NotFoundPage = () => (
-  <Layout whiteNav={true}>
+  <>
     <section className={`content-block block-hero`}>
       <Hero data={{
         headline: `Page Not Found`
       }} />
     </section>
 
-    <section className={`content-block block-content`}>
+    <section className="content-block block-content">
       <div className="text-center">
         <div className="text-3xl max-w-xl mx-auto mb-8 pt-10">
           Sorry, this page doesn't exist.
@@ -27,11 +24,11 @@ const NotFoundPage = () => (
           <a className="btn" href="//ldi.global/opportunities">Opportunities</a>
         </div>
         <div>
-          <Link className="btn" to="//signup">Give</Link>
+          <a className="btn" href="/signup">Give</a>
         </div>
       </div>
     </section>
-  </Layout>
+  </>
 )
 
 export default NotFoundPage

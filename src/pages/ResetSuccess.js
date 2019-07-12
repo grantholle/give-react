@@ -1,5 +1,4 @@
 import React from "react"
-
 import Blocks from "../components/blocks"
 
 export default () => (
@@ -7,16 +6,12 @@ export default () => (
     {
       id: `hero`,
       block: `hero`,
-      headline: `Give to LDi`
+      headline: `Password reset was successful`
     },
     {
       id: `content`,
       block: `content`,
-      content: `<p class="text-center"></p>`
-    },
-    {
-      id: `donate-form`,
-      block: `donate`
+      content: `<p class="text-center">Your password reset was successful. Please follow the link you receive to reset your password.</p>`
     }
   ]} />
 )

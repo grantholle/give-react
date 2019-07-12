@@ -1,6 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# give.ldi.global "vanilla" React
+
+This is a port from Gatsby to plain React.
+
+To get started, clone the repo and run `npm install`.
+
+The basic structure can be found in `public/index.html`. Add the following elements with the specific id attribute values to display the different pages/forms.
+
+```html
+<div id="SignIn"></div>
+<div id="SignUp"></div>
+<div id="Reset"></div>
+<div id="Donate"></div>
+<div id="SignUpSuccess"></div>
+<div id="ResetSuccess"></div>
+
+<!-- Put this element in the 404 page -->
+<div id="NotFoundPage"></div>
+```
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
@@ -66,3 +86,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<!--  -->
