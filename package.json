@@ -13,7 +13,7 @@
     "react-animate-height": "^2.0.15",
     "react-day-picker": "^7.3.0",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "tailwindcss": "^1.0.5"
   },
   "scripts": {
